@@ -1,0 +1,109 @@
+* {
+    background-color: rgb(46, 133, 25);
+}
+
+.title{
+    margin-top: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 80px;
+    margin-bottom: 100px;
+    z-index: 100;
+    text-align: center;
+}
+
+.scoreSheet{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-family: monospace;
+    font-size: 40px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#playerText{
+    padding-right: 100px;
+}
+
+#results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    transform: translateY(-210%);
+    background-color: white;
+}
+#startGame{
+    display: flex;
+    justify-content: center;
+
+}
+
+#startGame button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px;
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 0 0 5px black;
+    transform: translateY(-100%);
+}
+
+#startGame button:hover{
+    background-color: rgb(206, 218, 51);
+}
+
+/*deck container */
+#container1{
+    width: 100%;
+    margin-bottom: 40px;
+    transform: translateY(-60%);
+}
+
+#container1 h2{
+    text-align: center;
+}
+
+/* display deck */
+#displayPlayerCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#displayPlayerCards img {
+    margin: 5px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container2 button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 0 0 5px black;
+}
+
+.container2 button:hover{
+    background-color: rgb(206, 218, 51);
+}
